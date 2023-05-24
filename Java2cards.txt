@@ -1,0 +1,11 @@
+What is car1 in Car car1 = new Car(); ? Is it an object? Tell something about this variable.@@@It is not an object. It is a reference variable. Its type starts with capital letter. It holds the address of the object which is located on the heap.
+Tell something about primitive variable. @@@Type starts with a lower case letter, such as int, double, boolean, etc. It stores simple values and is built into java when it was being witten.
+What is the difference between local and instance variables?@@@Local variables are declared inside of a method and only have scope inside of that method. Instance variables are declared at the class level and have scope across the entire object. Local variables are stored in the current stack frame and will be destroyed when the method ends. Instance variables are stored inside of the object.
+What does the "static" mean in Java? What is static variable? What is static method? @@@Static means "no objects". Static variables only have one value which is shared by all the objects in the class. Static methods can be called without instantiate objects.
+What are the benefits of enums? @@@Enums can force a list of certain values that a variable can be set to. Enums can cut down on spelling mistakes.
+Why ArrayList is better than Array? @@@Array has fixed length so it doesn't grow or shrink. ArrayList can dynamically grow and shrink, we it has many predefined methods to help us.
+How to create an ArrayList? @@@ArrayList<type> alist=new ArrayList<type>(). 
+When to use LinkedList and when to use ArrayList? @@@If there are frequent insert and remove operations, LinkedList is a best choice. If there are more search operations, choose ArrayList.
+What is the biggest difference between an abstract class and a concrete class? @@@We can't instantiate Abstract class. 
+What is interface? @@@An interface is a contract. If one class implement an interface, it must implement all of the methods specified in the contract.
+How to differenciate aggregation and composition? @@@If they born together and die together, it is composition relationship. 
